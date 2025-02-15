@@ -37,4 +37,4 @@ These insights empower stakeholders with key business metrics, enabling strategi
 This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
 
 ### 🌟 About Me
-Hi there! I'm Ahmed Mohamed Elsayed. I'm a passionate data analyst and ai engineer with a strong research interest, eager to leverage my combined AI and data analysis knowledge to solve problems and extract meaningful insights. My excellent writing skills allow me to communicate complex data findings to various audiences.
+Hi there! I'm **Ahmed Mohamed Elsayed**. I'm a passionate data analyst and ai engineer with a strong research interest, eager to leverage my combined AI and data analysis knowledge to solve problems and extract meaningful insights. My excellent writing skills allow me to communicate complex data findings to various audiences.
