@@ -19,9 +19,9 @@ Usage Example:
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
-    DECLARE @start_time DATE, @end_time DATE, @batch_start_time DATE, @batch_end_time DATE
+        DECLARE @start_time DATE, @end_time DATE, @batch_start_time DATE, @batch_end_time DATE
   	BEGIN TRY
-    	  SET @batch_start_time = GETDATE();
+    	        SET @batch_start_time = GETDATE();
     		PRINT '===============================================';
     		PRINT 'Loading The Bronze Layer';
     		PRINT '===============================================';
