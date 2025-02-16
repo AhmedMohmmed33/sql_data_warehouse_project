@@ -1,6 +1,8 @@
 # Data Warehouse and Analytics Project
 
 Welcome to **Data Warehouse and Analytics Project** repository!🚀
+![Uploading Data_Architecture.drawio.png…]()
+![Uploading Data_Architecture.drawio.png…]()
 
 This project demonstrates a comperhensive data warehouse and analytics solution, from building a data warehouse to generating actionable insights.
 
@@ -38,6 +40,3 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 ### 🌟 About Me
 Hi there! I'm **Ahmed Mohamed Elsayed**. I'm a passionate data analyst and ai engineer with a strong research interest, eager to leverage my combined AI and data analysis knowledge to solve problems and extract meaningful insights. My excellent writing skills allow me to communicate complex data findings to various audiences.
-
-![Uploading Data_Architecture.drawio.png…]()
-
