@@ -23,13 +23,13 @@ BEGIN
 	DECLARE @start_time DATE, @end_time DATE, @batch_start_time DATE, @batch_end_time DATE
 	BEGIN TRY
 		SET @batch_start_time = GETDATE();
-    PRINT '===============================================';
-    PRINT 'Loading The Silver Layer';
-    PRINT '===============================================';
+    		PRINT '===============================================';
+    		PRINT 'Loading The Silver Layer';
+    		PRINT '===============================================';
 		
 		PRINT '-----------------------------------------------';
-    PRINT 'Loading CRM Tables';
-    PRINT '-----------------------------------------------';
+    		PRINT 'Loading CRM Tables';
+    		PRINT '-----------------------------------------------';
 		SET @start_time = GETDATE();
 		PRINT 'Truncating Table: silver.crm_cust_info';
 		TRUNCATE TABLE silver.crm_cust_info;
@@ -150,8 +150,8 @@ BEGIN
 		PRINT '-----------------------------------';
 
 		PRINT '-----------------------------------------------';
-    PRINT 'Loading ERP Tables';
-    PRINT '-----------------------------------------------';
+    		PRINT 'Loading ERP Tables';
+    		PRINT '-----------------------------------------------';
 		SET @start_time = GETDATE();
 		PRINT 'Truncating Table: silver.erp_cust_az12';
 		TRUNCATE TABLE silver.erp_cust_az12;
@@ -209,10 +209,10 @@ BEGIN
 		PRINT '-----------------------------------';
 
 		SET @batch_end_time = GETDATE();
-    PRINT '=================================================';
-    PRINT 'Loading Silver Layer is Completed';
-    PRINT '  -Total Load Duration: ' + CAST(DATEDIFF(second,@batch_start_time,@batch_end_time) AS VARCHAR) + ' seconds';
-    PRINT '=================================================';
+    		PRINT '=================================================';
+    		PRINT 'Loading Silver Layer is Completed';
+    		PRINT '  -Total Load Duration: ' + CAST(DATEDIFF(second,@batch_start_time,@batch_end_time) AS VARCHAR) + ' seconds';
+    		PRINT '=================================================';
 	END TRY
 	BEGIN CATCH
 		PRINT '================================================';
