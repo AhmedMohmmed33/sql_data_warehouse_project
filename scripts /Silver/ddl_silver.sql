@@ -77,10 +77,10 @@ IF OBJECT_ID('silver.erp_px_cat_g1v2', 'U') IS NOT NULL
 GO
   
 CREATE TABLE silver.erp_px_cat_g1v2(
-	id			VARCHAR(50),
-	cat			VARCHAR(50),
-	subcat			VARCHAR(50),
-	maintenance		VARCHAR(50),
+	id		VARCHAR(50),
+	cat		VARCHAR(50),
+	subcat		VARCHAR(50),
+	maintenance	VARCHAR(50),
 	dwh_create_date	DATETIME2 DEFAULT GETDATE()
 );
 GO
