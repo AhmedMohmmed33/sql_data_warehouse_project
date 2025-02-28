@@ -79,7 +79,7 @@ BEGIN
     		PRINT '------------------------';
     
     		PRINT '-----------------------------------------------';
-    		PRINT 'Loading CRM Tables';
+    		PRINT 'Loading ERP Tables';
     		PRINT '-----------------------------------------------';
     
     		SET @start_time = GETDATE();
