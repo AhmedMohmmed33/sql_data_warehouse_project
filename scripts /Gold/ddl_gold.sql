@@ -30,7 +30,7 @@ CREATE VIEW gold.dim_customers AS
 		ci.cst_lastname                       AS last_name,
 		la.cntry                              AS country,
 		CASE WHEN ci.cst_gndr != 'n/a' THEN ci.cst_gndr
-				ELSE COALESCE(ca.gen, 'n/a')
+		     ELSE COALESCE(ca.gen, 'n/a')
 		END                                   AS gender,  -- CRM is the master for grnder information
 		ci.cst_marital_status                 AS marital_status,
 		ca.bdate                              AS birthdate,
@@ -52,7 +52,7 @@ GO
 CREATE VIEW gold.dim_products AS
 	SELECT
 		ROW_NUMBER() OVER(ORDER BY pn.prd_start_dt, pn.prd_key) AS product_key,
-        pn.prd_id                                               AS product_id,
+        	pn.prd_id                                               AS product_id,
 		pn.prd_key                                              AS product_number,
 		pn.prd_nm                                               AS product_name,
 		pn.cat_id                                               AS category_id,
