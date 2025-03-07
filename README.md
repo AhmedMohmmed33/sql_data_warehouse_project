@@ -11,9 +11,9 @@ This project demonstrates a comperhensive data warehouse and analytics solution,
 The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:
 ![Data Architecture](docs/Data_Architecture.drawio.png)
 
-1- Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
-2- Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-3- Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
+1- **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+2- **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3- **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ---
 
@@ -41,6 +41,12 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Sales Trends**
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+
+---
+
+### 🛠️ Notion Steps:
+
+**[Notion](https://www.notion.so/SQL-Data-Warehouse-Project-1980500fe82880528080db1d51ed6e64)**: Access to all project phases and tasks.
 
 ---
 
