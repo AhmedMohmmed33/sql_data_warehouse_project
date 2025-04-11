@@ -76,7 +76,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ### 🛠️ Notion Steps:
 
-**[Notion](https://www.notion.so/SQL-Data-Warehouse-Project-1980500fe82880528080db1d51ed6e64)**: Access to all project phases and tasks.
+**[Notion]([https://www.notion.so/SQL-Data-Warehouse-Project-1980500fe82880528080db1d51ed6e64](https://teal-zinnia-075.notion.site/SQL-Data-Warehouse-Project-1980500fe82880528080db1d51ed6e64?pvs=4))**: Access to all project phases and tasks.
 
 ---
 
